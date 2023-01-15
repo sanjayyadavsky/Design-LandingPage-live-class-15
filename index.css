@@ -5,6 +5,9 @@
     list-style: none;
     text-decoration: none;
 }
+::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+  }
 .container{
     width: 90%;
     margin: 0px auto;
@@ -64,7 +67,7 @@ nav>.container{
     color: #fff;
 }
 .hero-section-button{
-    margin-left: -50px;
+    margin-left: -4px;
     color: #fff;
     margin-top: 20px;
     padding: 10px 30px;
