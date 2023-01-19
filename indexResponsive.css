@@ -129,7 +129,15 @@
     .footer-nav-item {
         padding: 13px 10px;
     }
+    .menu-icom{
+        margin: auto 10px;
+        justify-items: flex-end;
+        display: block;
+        color: #fff;
+        font-size: 30px;
+    }
 }
+
 
 
 

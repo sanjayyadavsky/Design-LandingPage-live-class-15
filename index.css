@@ -279,8 +279,6 @@ footer{
 }
 footer>.container{
     display: flex;
-    justify-content: center;
-    justify-items: center;
 }
 .logo-footer>img{
     margin: 30px ;
@@ -306,4 +304,7 @@ footer>.container{
     color: #fff;
     font-size: 30px;
     margin: auto;
+}
+.menu-icom{
+    display: none;
 }
