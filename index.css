@@ -5,9 +5,6 @@
     list-style: none;
     text-decoration: none;
 }
-::-webkit-scrollbar-track {
-    background: #f1f1f100; 
-  }
 .container{
     width: 90%;
     margin: 0px auto;
@@ -15,6 +12,7 @@
 body{
     background-color: rgb(16 16 1);
 }
+
 nav>.container{
     display: flex;
     justify-content: space-between;
@@ -22,10 +20,14 @@ nav>.container{
 .logo>img{
     width: 133px;
     height: 69px;
-    filter: revert;
 }
 .navbar{
     padding: 24px;
+    width: 80%;
+    padding: 24px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
 }
 .nav-item{
     padding: 13px 25px;
@@ -39,6 +41,8 @@ nav>.container{
 }
 .hero-section{
     display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 .hero-image{
     width: 40%;
@@ -49,9 +53,8 @@ nav>.container{
 }
 .detail{
     font-family: sans-serif;
-    position: relative;
-    top: 120px;
     width: 40%;
+    margin-top: 80px;
 }
 .detail>h5{
     color:#fe3444 ;
@@ -75,8 +78,8 @@ nav>.container{
     border: none;
 }
 .middle-bgc{
-    width: 650px;
-    height: 650px;
+    width: 750px;
+    height: 700px;
     background-color: #171717;
     position: absolute;
 }
@@ -88,7 +91,7 @@ nav>.container{
     background-color: #1e1e1e;
     margin: 20px;
     padding: 20px;
-    width: 23%;
+    width: 28%;
     z-index: 1;
     height: 320px;
 }
@@ -109,7 +112,7 @@ nav>.container{
 }
 .services-item>h2{
     padding: 15px 0px;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 700;
     color: #fff;
 }
@@ -131,9 +134,9 @@ nav>.container{
 .container-middle{
     font-weight: 200;
     position: relative;
-   /* bottom: 690px; */
+    top: 50px;
     margin-left: 150px;
-    width: 90%;
+    /* width: 100%; */
 }
 .buttom{
     display: flex;
@@ -173,24 +176,22 @@ nav>.container{
 }
 .btm-services-item{
     margin: 20px;
-    width: 23%;
+    width: 28%;
     z-index: 1;
     height: 200px;
 }
-.container-featured{
-    position: relative;
-    top: 100px;
-    width: 80%;
-    margin: 0 auto;
-}
 .featured-project-container{
     position: relative;
+    top: 10px;
     font-family: sans-serif;
     color: #fff;
+    z-index: 1;
 }
 .featured-project-header{
     display: flex;
     justify-content: space-between;
+    margin-top: 200px;
+    padding: 0 20px;
 }
 .featured-project-header>div>h2{
     margin-bottom: 10px;
@@ -200,9 +201,11 @@ nav>.container{
 }
 .feature-project-item >div{
     display: flex;
+    justify-content: space-between;
+   
 }
 .featured-img{
-    width: 600px;
+    width: 625px;
     height: 500px;
     margin: 20px 20px;
     padding: 70px 25px;
@@ -225,20 +228,26 @@ nav>.container{
     padding: 0 5px;
 }
 .next-project{
-    margin-top: 100px;
+    width: 100%;
     background-color: #1e1e1e;
+    color: #fff;
+    position: relative;
+    font-family: sans-serif;
+    margin-top: 30px;
     display: flex;
+    padding: 30px;
+
 }
 .paragraph{
     width: 70%;
 }
 .paragraph>h2{
-    margin: 106px 50px 14px;
-    font-size: 64px;
+    font-size: 62px;
+    margin: 20px 0px;
 }
 .paragraph>p{
     font-size: 15px;
-    margin: 5px 50px 14px;
+    margin-bottom: 30px;
 }
 .footer-contact-button{
     margin: auto;
@@ -249,22 +258,29 @@ nav>.container{
     color: #fff;
 }
 .footer-nav{
-    padding: 30px;
-    width: 50%;
+    /* padding: 30px; */
+    width: 100%;
     margin: 40px auto;
-    /* height: 200px; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 .nav-item-f{
     font-family: sans-serif;
-    padding: 54px 38px;
-    width: 50%;
-    margin: auto;
+    margin: 5px 15px;
+    padding: 20px 30px;
     font-size: 18px;
     color: #fff;
+    cursor: pointer;
 }
 footer{
     background-color: #1e1e1e;
+   
+}
+footer>.container{
     display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 .logo-footer>img{
     margin: 30px ;
@@ -275,15 +291,17 @@ footer{
 .social{
     display: flex;
     width: 80%;
+    position: relative;
+    left: -120px;
     justify-content: center;
+    margin: auto;
 }
 .social>li{
-    margin:  20px;
-    /* background-color: aqua; */
+    margin:  15px;
    
 }
 .footer-nav-item{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding: 20px 30px;
     color: #fff;
     font-size: 30px;
