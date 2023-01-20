@@ -119,7 +119,8 @@
     }
     .nav-item-f{
         padding: 11px 9px;
-        font-size: 23px;
+        font-size: 19px;
+        font-weight: 500;
         margin: auto;
     }
     .social {
