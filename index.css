@@ -126,7 +126,6 @@ nav>.container{
     top: 8px;
     font-size: 13px;
     color: #fe3444;
-
 }
 .Product-Design>a{
     color: #fff;
@@ -136,7 +135,6 @@ nav>.container{
     position: relative;
     top: 50px;
     margin-left: 150px;
-    /* width: 100%; */
 }
 .buttom{
     display: flex;
@@ -202,7 +200,6 @@ nav>.container{
 .feature-project-item >div{
     display: flex;
     justify-content: space-between;
-   
 }
 .featured-img{
     width: 625px;
@@ -236,7 +233,6 @@ nav>.container{
     margin-top: 30px;
     display: flex;
     padding: 30px;
-
 }
 .paragraph{
     width: 70%;
@@ -258,7 +254,6 @@ nav>.container{
     color: #fff;
 }
 .footer-nav{
-    /* padding: 30px; */
     width: 100%;
     margin: 40px auto;
     display: flex;
@@ -275,7 +270,6 @@ nav>.container{
 }
 footer{
     background-color: #1e1e1e;
-   
 }
 footer>.container{
     display: flex;
@@ -296,10 +290,8 @@ footer>.container{
 }
 .social>li{
     margin:  15px;
-   
 }
 .footer-nav-item{
-    /* margin-top: 10px; */
     padding: 20px 30px;
     color: #fff;
     font-size: 30px;
