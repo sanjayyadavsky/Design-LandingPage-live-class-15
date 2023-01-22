@@ -42,7 +42,7 @@
 @media screen and  (max-width: 768px ) {
     .logo>img{
         width: 75%;
-        height: 40%;
+        /* height: 40%; */
     }
     .hero-section{
         width:100%;
